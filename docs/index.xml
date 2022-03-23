@@ -29,7 +29,11 @@
 &amp;mdash;&amp;mdash;UnrealEngineModLoader.dll
   2.解压后进入Profiles文件夹内,保留一个文件，其余在该文件夹内都删除。   BasicExampleGame.profile
  将BasicExampleGame.profile重新命名为 Longvinter-Win64-Shipping.profile 并编辑该文件为以下内容
- #Games Basic Information [GameInfo] UsesFNamePool=1 IsUsingFChunkedFixedUObjectArray=1 IsUsingDeferedSpawn=0
+ #Games Basic Information
+[GameInfo]
+UsesFNamePool=1
+IsUsingFChunkedFixedUObjectArray=1
+IsUsingDeferedSpawn=0
   3.返回到解压文件的根目录并运行UnrealEngineModLauncher.exe 4.弹出一个指令窗口后，运行Longvinter游戏 5.待游戏完全加载后，退出游戏，进行mod安装。  MiniMap地图Mod安装 需要完成以上所有步骤才能进行这一步。
  1.解压MiniMapMod.zip文件 得到这两个文件   MapMod.dll
 map_center.png
