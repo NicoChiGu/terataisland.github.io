@@ -41,6 +41,14 @@
                                 
                                     
                                         <li>
+                                            <a href="#experimental-update">EXPERIMENTAL UPDATE</a>
+                                        </li>
+                                    
+                                
+                            
+                                
+                                    
+                                        <li>
                                             <a href="#last-update">Last Update</a>
                                         </li>
                                     
@@ -56,12 +64,46 @@
                     
                         
                             
+                                <article id="experimental-update">
+                                    <h2 class="major">EXPERIMENTAL UPDATE</h2>
+                                    <span class="image main"><img src="" alt="" /></span>
+                                    <h2 id="heading"></h2>
+<h3 id="实验性版本更新">实验性版本更新</h3>
+<ul>
+<li>修复了使用鼠标左键和空格键放置两个项目时出现的重复放置问题</li>
+<li>再看一眼箱子是如何被保存的。发现在某些情况下，箱子只保存id。有可能会保存消失的箱子，但它们的位置已重置，因此它们在地图的0点生成，而不是它们应该在的位置。改变了胸部总是保存着自己的一切。胸部也保存他们的方式太频繁，导致不必要的负载服务器</li>
+<li>修复了一个酒吧小故障，允许你在詹姆斯回收店出售物品并保存物品</li>
+<li>修复了服务器重新启动后重置房产面积的问题</li>
+<li>管理面板现在在操作选项卡中有手动保存按钮</li>
+<li>你现在可以解封你在服务器上禁止的玩家</li>
+<li>已在服务器上禁用discord初始化</li>
+<li>地图的大小越来越大，我怀疑服务器在试图一次保存所有玩家放置的物品时内存不足。现在地图分为三个区域，一个接一个地保存。希望这将使服务器更加稳定</li>
+<li>增加了两个服务器基础的新参数。你现在可以禁用帐篷衰变并更改每个玩家允许的垒数。帐篷腐烂现在也可以节省开支。你可以通过在游戏中添加这些线来启用这些功能。ini配置文件</li>
+</ul>
+<blockquote>
+<p>[Game/Blueprints/Server/GM_Longvinter.GM_Longvinter_C]
+TentDecay=false
+MaxTents=2</p>
+</blockquote>
+<ul>
+<li>击杀和炮塔出售现在显示在管理面板中</li>
+<li>你现在可以在秋季地区播种了</li>
+<li>树木现在应该在被砍伐后重生时呈现正确的颜色</li>
+<li>增加了备份系统，每6小时保存一次所有值。存储了3个不同的版本，管理员可以从管理员面板加载一个版本。</li>
+</ul>
+
+                                </article>
+                            
+                        
+                    
+                        
+                            
                                 <article id="last-update">
                                     <h2 class="major">Last Update</h2>
                                     <span class="image main"><img src="" alt="" /></span>
                                     <h2 id="heading"></h2>
 <h2 id="heading-1"></h2>
-<h3 id="message">Message</h3>
+<h3 id="正式版本更新">正式版本更新</h3>
 <ul>
 <li>
 <p>将玩家重生点移到屋内，以防止杀死</p>

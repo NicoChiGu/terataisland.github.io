@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>EXPERIMENTAL UPDATE</title>
+      <link>https://longvinter.terachigu.top/messages/experimental/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://longvinter.terachigu.top/messages/experimental/</guid>
+      <description> 实验性版本更新  修复了使用鼠标左键和空格键放置两个项目时出现的重复放置问题 再看一眼箱子是如何被保存的。发现在某些情况下，箱子只保存id。有可能会保存消失的箱子，但它们的位置已重置，因此它们在地图的0点生成，而不是它们应该在的位置。改变了胸部总是保存着自己的一切。胸部也保存他们的方式太频繁，导致不必要的负载服务器 修复了一个酒吧小故障，允许你在詹姆斯回收店出售物品并保存物品 修复了服务器重新启动后重置房产面积的问题 管理面板现在在操作选项卡中有手动保存按钮 你现在可以解封你在服务器上禁止的玩家 已在服务器上禁用discord初始化 地图的大小越来越大，我怀疑服务器在试图一次保存所有玩家放置的物品时内存不足。现在地图分为三个区域，一个接一个地保存。希望这将使服务器更加稳定 增加了两个服务器基础的新参数。你现在可以禁用帐篷衰变并更改每个玩家允许的垒数。帐篷腐烂现在也可以节省开支。你可以通过在游戏中添加这些线来启用这些功能。ini配置文件   [Game/Blueprints/Server/GM_Longvinter.GM_Longvinter_C] TentDecay=false MaxTents=2
+  击杀和炮塔出售现在显示在管理面板中 你现在可以在秋季地区播种了 树木现在应该在被砍伐后重生时呈现正确的颜色 增加了备份系统，每6小时保存一次所有值。存储了3个不同的版本，管理员可以从管理员面板加载一个版本。  </description>
+    </item>
+    
+    <item>
       <title>Install Map Mod</title>
       <link>https://longvinter.terachigu.top/docs/plugin-map/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -48,7 +58,7 @@ map_center.png
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://longvinter.terachigu.top/messages/latest/</guid>
-      <description>  Message   将玩家重生点移到屋内，以防止杀死
+      <description>  正式版本更新   将玩家重生点移到屋内，以防止杀死
   新房子升级！我终于设法完成了房子的新升级。像塔楼和房子周围的灯之类的东西很快就会开始需要能源。它可以通过从工作台升级你的房子来获得。稍后我们还会增加发电机和风车来产生能量，但这些必须放在你的院子里。目前，新的电力系统尚未投入使用，但新的更大的内部升级现在可以完成。这会使你的室内空间增大25%和35%，具体取决于你选择的能量路径。
   在工作台上增加了新的配电盘。这就是旧的木质升级板曾经的位置。
   在升级太阳能电池板后，它们将在白天产生能量，这可以在workbench中看到。风车增加了被动能源生产。
