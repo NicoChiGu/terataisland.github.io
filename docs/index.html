@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>文档</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="https://longvinter.terachigu.top/assets/css/main.css"/>
+    <link rel="canonical" href="https://longvinter.terachigu.top/docs/">
+    <noscript><link rel="stylesheet" href="https://longvinter.terachigu.top/assets/css/noscript.css"/></noscript>
+    <style>
+        :root{--site-background : url("https://longvinter.terachigu.top/images/bg.png")};
+    </style> 
+    
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+
+
+<body class="is-preload">
+
+    
+        <div id="wrapper">
+
+            
+                <header id="header">
+                    <div class="logo">
+                        <a href="/">
+                            <span class="icon">
+                                <img src="../images/logo.png">
+                            </span>
+                        </a>
+                    </div>
+                    <div class="content">
+                        <div class="inner">
+                            <h1>文档</h1>
+                            
+                        </div>
+                    </div>
+                    <nav>
+                        <ul>
+                            
+                                
+                                    
+                                        <li>
+                                            <a href="#install-map-mod">Install Map Mod</a>
+                                        </li>
+                                    
+                                
+                            
+                        </ul>
+                    </nav>
+                </header>
+
+            
+                <div id="main">
+
+                    
+                        
+                            
+                                <article id="install-map-mod">
+                                    <h2 class="major">Install Map Mod</h2>
+                                    <span class="image main"><img src="" alt="" /></span>
+                                    <h2 id="安装地图插件">安装地图插件</h2>
+<h3 id="需要准备一下文件">需要准备一下文件</h3>
+<ul>
+<li><strong>Unreal Engine Mod Loader</strong>     <strong>本站下载:</strong><a href="/files/UnrealModLoader_V2.2.0.rar">v2.2</a>     <strong>Github:</strong><a href="https://github.com/RussellJerome/UnrealModLoader/releases">下载</a></li>
+<li><strong>MiniMapMod</strong>        <strong>本站下载:</strong><a href="/files/MiniMapMod.zip">latest</a></li>
+</ul>
+<h3 id="安装unreal-engine-mod-loader">安装Unreal Engine Mod Loader</h3>
+<ul>
+<li><strong>1.解压UnrealModLoader_Vx.x.x.zip</strong>
+你会获得以下目录</li>
+</ul>
+<blockquote>
+<p><strong>UnrealModLoader_Vx.x.x</strong><br>
+&mdash;&mdash;<strong>Profiles</strong><br>
+     |&mdash;&ndash;省略一堆.profile<br>
+&mdash;&mdash;<strong>Tools</strong><br>
+     |&mdash;&ndash;AutoInjector<br>
+          |&mdash;&ndash;ModLoaderInfo.ini<br>
+          |&mdash;&ndash;readme.txt<br>
+          |&mdash;&ndash;xinput1_3.dll<br>
+&mdash;&mdash;ModModLoaderInfo.ini<br>
+&mdash;&mdash;UnrealEngineModLauncher.exe<br>
+&mdash;&mdash;UnrealEngineModLoader.dll</p>
+</blockquote>
+<ul>
+<li>2.解压后进入Profiles文件夹内,<strong>保留</strong>一个文件，其余在该文件夹内都删除。</li>
+</ul>
+<blockquote>
+<p>BasicExampleGame.profile</p>
+</blockquote>
+<p>将<strong>BasicExampleGame.profile</strong>重新命名为 <strong>Longvinter-Win64-Shipping.profile</strong>  并编辑该文件为以下内容</p>
+<blockquote>
+<p>#Games Basic Information
+[GameInfo]
+UsesFNamePool=1
+IsUsingFChunkedFixedUObjectArray=1
+IsUsingDeferedSpawn=0</p>
+</blockquote>
+<ul>
+<li>3.返回到解压文件的根目录并运行<strong>UnrealEngineModLauncher.exe</strong></li>
+<li>4.弹出一个指令窗口后，运行Longvinter游戏</li>
+<li>5.待游戏完全加载后，退出游戏，进行mod安装。</li>
+</ul>
+<h3 id="minimap地图mod安装">MiniMap地图Mod安装</h3>
+<p>需要完成以上所有步骤才能进行这一步。</p>
+<ul>
+<li>1.解压<strong>MiniMapMod.zip</strong>文件</li>
+<li>得到这两个文件</li>
+</ul>
+<blockquote>
+<p><strong>MapMod.dll</strong><br>
+<strong>map_center.png</strong></p>
+</blockquote>
+<ul>
+<li>2.使用Steam打开Longvinter的游戏目录<br>
+会得到一下目录</li>
+</ul>
+<blockquote>
+<p><strong>Engine</strong><br>
+     |&mdash;&ndash;省略<br>
+<strong>Longvinter</strong><br>
+     |&mdash;&ndash;省略<br>
+Longvinter.exe<br>
+Manifest_NonUFSFiles_Win64.txt</p>
+</blockquote>
+<ul>
+<li>3.进入<strong>Longvinter\Content\CoreMods</strong> 目录下</li>
+<li>4.将第一步解压的2个文件直接扔到这个目录下,不要有文件夹的形式。</li>
+</ul>
+<h6 id="到此你已经完成了所有mod安装现在只需要每次先打开unrealenginemodlauncherexe再打开longvinter游戏即可游戏正常退出的话注入器也会一同关闭altf4可能不会需要手动关闭一次">到此你已经完成了所有mod安装，现在只需要每次先打开<strong>UnrealEngineModLauncher.exe</strong>,再打开Longvinter游戏即可,游戏正常退出的话,注入器也会一同关闭,Alt+F4可能不会,需要手动关闭一次。</h6>
+<hr>
+<h4 id="使用说明-开关窗口使用f1键">使用说明: 开关窗口使用F1键</h4>
+
+                                </article>
+                            
+                        
+                    
+
+                </div>
+
+                
+<footer id="footer">
+    <p class="copyright">&copy; CREATE BY: <a href="https://github.com/NicoChiGu">TERATACHIGU</a> / <a href="https://afdian.net/@teratachigu">捐赠</a>.</p>
+</footer>
+
+
+        </div>
+
+    
+    <div id="bg"></div>
+
+</body>
+
+
+    
+    <script src=https://longvinter.terachigu.top/assets/js/jquery.min.js></script>
+    <script src=https://longvinter.terachigu.top/assets/js/browser.min.js></script>
+    <script src=https://longvinter.terachigu.top/assets/js/breakpoints.min.js></script>
+    <script src=https://longvinter.terachigu.top/assets/js/util.js></script>
+    <script src=https://longvinter.terachigu.top/assets/js/main.js></script>
+
+</html>

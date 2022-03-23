@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>文档 on TERATA ISLAND</title>
+    <link>https://longvinter.terachigu.top/docs/</link>
+    <description>Recent content in 文档 on TERATA ISLAND</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    
+	<atom:link href="https://longvinter.terachigu.top/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Install Map Mod</title>
+      <link>https://longvinter.terachigu.top/docs/plugin-map/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://longvinter.terachigu.top/docs/plugin-map/</guid>
+      <description>安装地图插件 需要准备一下文件  Unreal Engine Mod Loader 本站下载:v2.2 Github:下载 MiniMapMod 本站下载:latest  安装Unreal Engine Mod Loader  1.解压UnrealModLoader_Vx.x.x.zip 你会获得以下目录   UnrealModLoader_Vx.x.x
+&amp;mdash;&amp;mdash;Profiles
+|&amp;mdash;&amp;ndash;省略一堆.profile
+&amp;mdash;&amp;mdash;Tools
+|&amp;mdash;&amp;ndash;AutoInjector
+|&amp;mdash;&amp;ndash;ModLoaderInfo.ini
+|&amp;mdash;&amp;ndash;readme.txt
+|&amp;mdash;&amp;ndash;xinput1_3.dll
+&amp;mdash;&amp;mdash;ModModLoaderInfo.ini
+&amp;mdash;&amp;mdash;UnrealEngineModLauncher.exe
+&amp;mdash;&amp;mdash;UnrealEngineModLoader.dll
+  2.解压后进入Profiles文件夹内,保留一个文件，其余在该文件夹内都删除。   BasicExampleGame.profile
+ 将BasicExampleGame.profile重新命名为 Longvinter-Win64-Shipping.profile 并编辑该文件为以下内容
+ #Games Basic Information [GameInfo] UsesFNamePool=1 IsUsingFChunkedFixedUObjectArray=1 IsUsingDeferedSpawn=0
+  3.返回到解压文件的根目录并运行UnrealEngineModLauncher.exe 4.弹出一个指令窗口后，运行Longvinter游戏 5.待游戏完全加载后，退出游戏，进行mod安装。  MiniMap地图Mod安装 需要完成以上所有步骤才能进行这一步。
+ 1.解压MiniMapMod.zip文件 得到这两个文件   MapMod.dll
+map_center.png
+  2.使用Steam打开Longvinter的游戏目录
+会得到一下目录   Engine</description>
+    </item>
+    
+  </channel>
+</rss>
